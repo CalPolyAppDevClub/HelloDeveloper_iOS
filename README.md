@@ -1,7 +1,7 @@
 Project: Hello Developer
 Created by Joe Durand 9/26/16
 
-INTRODUCTION********************************************************************
+# INTRODUCTION
 Welcome to Hello Developer, a simple app to help get you aquainted to the
 AWESOME world of iOS Development! While we won't do any crazy - at
 least not yet - it's a great way to get started fast, and we can build on this
@@ -11,7 +11,7 @@ I'm always open to suggestions, questions, and comments concerning this app and
 iOS development. One can contact me via email:  joe.durand3 AT gmail.com.
 
 
-SAYING HELLO********************************************************************
+# SAYING HELLO
 Traditionally, the first program any programmer writes is the Hello World
 program. The goal is to simply print out "Hello, World!" We'll make it a bit
 more interesting by having the user type in their name, have them hit a button,
@@ -20,7 +20,7 @@ Check out Main.storyboard in the file pane on the left, which will show you what
 the app will look like when we run it.
 
 
-MODEL VIEW CONTROLLER***********************************************************
+# MODEL VIEW CONTROLLER
 While we won't get too involved in this topic yet, it's important to remember
 that 9 out of 10 iOS apps are built using the model view controller (MVC)
 structure. Each of these parts plays an important role in delivering information
@@ -43,7 +43,7 @@ Since this is a simple app, we will combine the model and the controller because
 our model only consists of the user's name. (HelloViewController)
 
 
-QUICK TOUR**********************************************************************
+# QUICK TOUR
 A quick overview of the files contained in this project. I encourage you to
 Google these topics and look at Apple documentation to further your
 understanding:
@@ -78,3 +78,14 @@ to be used in the app.
 Info.plist - Working with the project file mentioned first, this stores
 important details and settings about the app. A developer can set an app to only
 work on an iPad or only work in portrait mode, for example.
+
+# RESOURCES
+There are unlimited resources for learning Swift and iOS Development on the web.
+Here are a few of my favorites:
+
+Keep Apple's swift documentation handy! Descriptions of everything swift are
+available: https://developer.apple.com/swift/resources/
+
+Professor Paul Hegarty at Stanford University teaches an excellent class in Swift:
+https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961
+
