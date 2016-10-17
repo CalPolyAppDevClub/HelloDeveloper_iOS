@@ -29,12 +29,12 @@ Let's have a brief overview of the files contained in this project. I encourage
 you to Google these topics and look at Apple documentation to further your
 understanding:
 
-####`Hello Developer` (blue icon)
+###`Hello Developer` (blue icon)
 The project file dictates all kinds of settings for building the app, organized
 into tabs. Take a quick look and see if you can understand some of the important
 basic settings in the General tab.
 
-####`App Delegate`
+###`App Delegate`
 [`App Delegate`](https://developer.apple.com/reference/uikit/uiapplicationdelegate)
 can be thought of at the messenger for our mobile app. Apple Operating Systems by nature
 are very secure, and don't let our app just wander around the device asking for
@@ -42,7 +42,7 @@ information. If we get a push notification, for instance, `App Delegate` is the
 first to know about it. This also goes for opening/closing the app, and
 entering background mode when the user clicks the home button.
 
-####`HelloViewController`
+###`HelloViewController`
 `HelloViewController` is a subclass (a type of) [`UIViewController`](https://developer.apple.com/reference/uikit/uiviewcontroller). UIViewControllers
 serve as our link between our app's information (the model) and what the user
 sees on the screen (the view). This important piece is what lets our data in our
@@ -59,7 +59,7 @@ so all we have to do is handle what our app idea is supposed to bring to the tab
 In this case, `HelloViewController` accepts the users name and spits out a Hello
 message to the view.
 
-####`Main.storyboard`
+###`Main.storyboard`
 While there are several ways to build a user interface in Xcode, the easiest
 way is by using [Storyboards](https://developer.apple.com/library/content/documentation/ToolsLanguages/Conceptual/Xcode_Overview/DesigningwithStoryboards.html). Storyboards in Xcode are similar to
 storyboards in comics; it's a series of panes that tell a story. They lay out
@@ -69,19 +69,19 @@ storyboard that takes a user through the checkout process in a shopping app. We
 have one main storyboard, since the user stays on the same screen the entire
 time.
 
-####`LaunchScreen.storyboard`
+###`LaunchScreen.storyboard`
 As the app starts up, the launch screen is displayed to let the user know
 something is going on. Generally, you don't want to do anything too busy on this
 screen; it likely won't be there very long. I prefer to have a "skeleton" of
 what my screen is going to look like when it starts up. Open up Apple's weather
 app to see this done correctly.
 
-####`Assets.xcassets`
+###`Assets.xcassets`
 Asset directories store images, videos, audio files, and the like to be used in
 the app. We won't use it in this project, but remember that your graphics set
 should look good on ANY device your app works on.
 
-####`Info.plist`
+###`Info.plist`
 Working with the project file mentioned first, this stores important details and
 settings about the app. A developer can set an app to only work on an iPad or
 only work in portrait mode, for example.
